@@ -1,41 +1,41 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Orange的个人主页"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-你好！欢迎来到我的个人学术主页。我是李巨智（Orangelililili），目前是哈尔滨工业大学控制科学与工程专业的硕士研究生。
+你好！欢迎来到我的个人主页。我是李巨智，目前是哈尔滨工业大学控制科学与工程专业的硕士研究生。
 
 ## 关于我
-======
+---
 我目前就读于哈尔滨工业大学，在海洋无人系统自主控制与协同技术重点实验室进行研究生学习。我的主要研究方向是**无人船无人机跨域协同路径规划**，这是一个结合了控制理论、人工智能和海洋工程的前沿研究领域。
 
-我的个人格言是：**"鹰击长空鲸霸海，不试怎知龙与蚯？"** 
+ 
 
 ## 研究方向
-======
+---
 * **跨域协同路径规划**：研究无人船和无人机在不同环境下的协同作业
 * **多智能体系统控制**：探索多个无人系统的协调控制策略
 * **海洋无人系统技术**：专注于海洋环境下的自主导航与控制
 
 ## 技术背景
-======
+---
 我具备扎实的编程基础，主要技术栈包括：
 * **编程语言**：C/C++、Linux系统编程
 * **后端技术**：MySQL、Redis、网络编程、系统设计
 * **研究方向相关**：路径规划算法、多智能体协同控制
 
 ## 在线资源
-======
+---
 * **GitHub**: [https://github.com/Orangelililili](https://github.com/Orangelililili)
 * **CSDN博客**: [https://blog.csdn.net/weixin_52423494](https://blog.csdn.net/weixin_52423494?spm=1000.2115.3001.5343)
 * **个人简历**: [查看详细CV](/cv/)
 
 ## 学术成果
-======
+---
 在我的CSDN博客上，我分享了大量技术文章，涵盖了：
 * 数据库技术（MySQL、Redis）
 * 网络编程与系统设计
@@ -46,14 +46,14 @@ redirect_from:
 目前已经获得了780次点赞和641次收藏，总访问量超过40,000次。
 
 ## 项目经历
-======
+---
 * **leetcode_road**: 代码随想录学习项目，持续提升算法能力
 * **CloudStorage**: 云存储相关项目，探索分布式系统
 
 
 ## 联系方式
-======
-如果你对我的研究感兴趣，或者希望进行学术交流，欢迎通过以下方式联系我：
+---
+如果你对我的研究工作感兴趣，或者希望进行学术交流，欢迎通过以下方式联系我：
 * 邮箱：[l1460696052@163.com](l1460696052@163.com)
 * GitHub：[@Orangelililili](https://github.com/Orangelililili)
 * CSDN：[@weixin_52423494](https://blog.csdn.net/weixin_52423494)
