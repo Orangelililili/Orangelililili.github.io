@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 ## 教育背景
-======
+---
 * **2024年至今**：硕士研究生在读，控制科学与工程专业
   * 哈尔滨工业大学
   * 海洋无人系统自主控制与协同技术重点实验室
@@ -21,7 +21,7 @@ redirect_from:
   * 研究方向：大数据分析，故障诊断，工业过程建模
 
 ## 研究经历
-======
+---
 * **2023年至今**：硕士研究生
   * 哈尔滨工业大学
   * 海洋无人系统自主控制与协同技术重点实验室
@@ -29,7 +29,7 @@ redirect_from:
   * 导师：黄海滨
 
 ## 技术技能
-======
+---
 * **编程语言**
   * C++17/20：熟练掌握现代C++特性，用于系统编程和算法实现
   * Python：用于数据分析、机器学习和脚本开发
@@ -58,7 +58,7 @@ redirect_from:
   * 技术表达能力：能够将复杂技术概念清晰表达
 
 ## 项目经历
-======
+---
 * ** 分布式云存储系统（个人主导项目）**
   * 技术栈：C++17、Linux、Reactor网络模型、Redis、MySQL、FastDFS、gRPC、Nginx、Docker
   * 独立设计并实现了一个支持用户认证、文件上传下载、分布式缓存与持久化存储的云存储平台
@@ -75,25 +75,25 @@ redirect_from:
   * 项目成果可作为云存储系统的优化模块，展示了在金融/高频交易中低延迟系统设计能力
 
 ## 学术成果
-======
+---
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 ## 学术报告
-======
+---
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
 ## 教学经历
-======
+---
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 ## 个人优势
-======
+---
 * **扎实的技术功底**：C++/Linux后端功底深厚，兼具系统级优化与分布式架构经验
 * **开源贡献**：GitHub主页长期活跃，项目持续迭代；CSDN技术博客粉丝数破千，具备良好技术表达能力
 * **学习与自驱力**：自主完成高性能系统类项目，从调研→架构设计→编码实现→Docker部署，全流程独立完成
@@ -101,7 +101,7 @@ redirect_from:
 * **研究方向相关**：专注于无人船无人机跨域协同路径规划，具备多智能体系统控制经验
 
 ## 在线资源
-======
+---
 * **GitHub**: [https://github.com/Orangelililili](https://github.com/Orangelililili)
 * **CSDN博客**: [https://blog.csdn.net/weixin_52423494](https://blog.csdn.net/weixin_52423494?spm=1000.2115.3001.5343)
 

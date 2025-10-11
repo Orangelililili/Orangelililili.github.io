@@ -9,27 +9,27 @@
 
 main:
   #学术成果
-  - title: "Publications"
+  - title: "学术成果"
     url: /publications/
 
-  #学术讲座
-  - title: "Talks"
+  #随记
+  - title: "随记"
     url: /talks/    
 
   #教学经历
-  - title: "Teaching"
+  - title: "教学经历"
     url: /teaching/    
 
   #项目经历
-  - title: "Portfolio"
+  - title: "项目经历"
     url: /portfolio/
     
   #博客文章
-  - title: "Blog Posts"
+  - title: "博客文章"
     url: /year-archive/
   
   #简历
-  - title: "CV"
+  - title: "简历"
     url: /cv/
     
   # - title: "CV"
