@@ -11,7 +11,7 @@ locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
 title                    : "Orangelililili "
 title_separator          : "-"
-name                     : &name "Orangelililili"
+name                     : &name "李巨智"
 description              : &description "Orangelililili's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://Orangelililili.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
@@ -51,7 +51,7 @@ author:
   github           : "Orangelililili"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
-  csdn             : "https://blog.csdn.net/weixin_52423494?spm=1000.2115.3001.5343"
+  csdn             : "weixin_52423494"
   #https://blog.csdn.net/weixin_52423494?spm=1000.2115.3001.5343
 
   # Social media
