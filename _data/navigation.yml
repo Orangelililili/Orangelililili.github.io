@@ -8,6 +8,10 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
+  #博客文章
+  - title: "博客文章"
+    url: /year-archive/
+    
   #学术成果
   - title: "学术成果"
     url: /publications/
@@ -17,16 +21,12 @@ main:
     url: /talks/    
 
   #教学经历
-  - title: "教学经历"
+  - title: "教育经历"
     url: /teaching/    
 
   #项目经历
   - title: "项目经历"
     url: /portfolio/
-    
-  #博客文章
-  - title: "博客文章"
-    url: /year-archive/
   
   #简历
   - title: "简历"
