@@ -23,14 +23,14 @@ repository               : "Orangelililili/Orangelililili.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Orangelililili"
   pronouns         : # example: "she/her"  
-  bio              : "Academic researcher and developer"
+  bio              : "鹰击长空鲸霸海，不试怎知龙与蚯？"
   location         : "China"
-  employer         : "University"
+  employer         : "哈尔滨工业大学"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "l1460696052@163.com" 
 
   # Academic websites
   academia         : # URL

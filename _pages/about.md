@@ -54,7 +54,7 @@ redirect_from:
 ## 联系方式
 ======
 如果你对我的研究感兴趣，或者希望进行学术交流，欢迎通过以下方式联系我：
-* 邮箱：[l1460696052@162.com](l1460696052@162.com)
+* 邮箱：[l1460696052@163.com](l1460696052@163.com)
 * GitHub：[@Orangelililili](https://github.com/Orangelililili)
 * CSDN：[@weixin_52423494](https://blog.csdn.net/weixin_52423494)
 
