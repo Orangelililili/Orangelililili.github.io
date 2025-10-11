@@ -9,7 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
-## 教育背景
+## 📄 PDF版本下载
+**简历PDF版本**: [resume.pdf](/files/resume.pdf)
+
+## 教育经历
 ---
 * **2024年至今**：硕士研究生在读，控制科学与工程专业
   * 哈尔滨工业大学
