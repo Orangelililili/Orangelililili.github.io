@@ -1,3 +1,37 @@
 <script type="module" src="{{ base_path }}/assets/js/main.min.js"></script>
 
 {% include analytics.html %}
+
+<script>
+  (function () {
+    var openers = document.querySelectorAll(".js-weixin-qr-open");
+    var modal = document.getElementById("weixin-qr-modal");
+    if (!openers.length || !modal) return;
+
+    var closers = modal.querySelectorAll(".js-weixin-qr-close");
+
+    function openModal(evt) {
+      if (evt) evt.preventDefault();
+      modal.setAttribute("aria-hidden", "false");
+      modal.classList.add("is-open");
+      document.documentElement.classList.add("has-weixin-qr-modal");
+    }
+
+    function closeModal() {
+      modal.setAttribute("aria-hidden", "true");
+      modal.classList.remove("is-open");
+      document.documentElement.classList.remove("has-weixin-qr-modal");
+    }
+
+    openers.forEach(function (el) {
+      el.addEventListener("click", openModal);
+    });
+    closers.forEach(function (el) {
+      el.addEventListener("click", closeModal);
+    });
+
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && modal.classList.contains("is-open")) closeModal();
+    });
+  })();
+</script>

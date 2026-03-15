@@ -85,6 +85,13 @@
       {% if author.csdn %}
         <li><a href="https://blog.csdn.net/{{ author.csdn }}"><i class="fas fa-fw fa-code icon-pad-right" aria-hidden="true"></i>CSDN</a></li>
       {% endif %}
+      {% if author.weixin %}
+        <li>
+          <a href="#" class="js-weixin-qr-open" aria-haspopup="dialog" aria-controls="weixin-qr-modal">
+            <i class="fab fa-fw fa-weixin icon-pad-right" aria-hidden="true"></i>公众号
+          </a>
+        </li>
+      {% endif %}
       {% if author.kaggle %}
         <li><a href="https://kaggle.com/{{ author.kaggle }}"><i class="fab fa-fw fa-kaggle icon-pad-right" aria-hidden="true"></i>Kaggle</a></li>
       {% endif %}      
@@ -171,3 +178,18 @@
     </ul>
   </div>
 </div>
+
+{% if author.weixin %}
+  <div id="weixin-qr-modal" class="weixin-qr-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-label="公众号二维码">
+    <div class="weixin-qr-modal__backdrop js-weixin-qr-close"></div>
+    <div class="weixin-qr-modal__panel" role="document">
+      <button type="button" class="weixin-qr-modal__close js-weixin-qr-close" aria-label="关闭">×</button>
+      <img
+        class="weixin-qr-modal__img"
+        src="{{ author.weixin | prepend: "/images/" | prepend: base_path }}"
+        alt="公众号二维码"
+        loading="lazy"
+      />
+    </div>
+  </div>
+{% endif %}

@@ -55,7 +55,7 @@ author:
   #https://blog.csdn.net/weixin_52423494?spm=1000.2115.3001.5343
 
   # Social media
-  weixin           : #"../images/weixin.jpg"
+  weixin           : "weixin_qr.png"
   artstation       : # Username
   bluesky          : #"bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
