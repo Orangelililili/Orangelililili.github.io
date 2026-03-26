@@ -1,0 +1,63 @@
+{% include base_path %}
+
+{% if page.author and site.data.authors[page.author] %}
+  {% assign author = site.data.authors[page.author] %}
+{% else %}
+  {% assign author = site.author %}
+{% endif %}
+
+{% assign has_links = false %}
+{% if author.csdn or author.linkedin or author.twitter %}
+  {% assign has_links = true %}
+{% endif %}
+
+{% if has_links %}
+  <div class="blog-external-links" aria-label="External profile links">
+    <ul class="blog-external-links__list">
+      {% if author.csdn %}
+        <li class="blog-external-links__item">
+          <a
+            class="blog-external-links__link"
+            href="https://blog.csdn.net/{{ author.csdn }}"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="CSDN"
+            title="CSDN"
+          >
+            <i class="fas fa-code" aria-hidden="true"></i>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if author.linkedin %}
+        <li class="blog-external-links__item">
+          <a
+            class="blog-external-links__link"
+            href="https://www.linkedin.com/in/{{ author.linkedin }}"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+            title="LinkedIn"
+          >
+            <i class="fab fa-linkedin" aria-hidden="true"></i>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if author.twitter %}
+        <li class="blog-external-links__item">
+          <a
+            class="blog-external-links__link"
+            href="https://twitter.com/{{ author.twitter }}"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="X (formerly Twitter)"
+            title="X"
+          >
+            <i class="fab fa-x-twitter" aria-hidden="true"></i>
+          </a>
+        </li>
+      {% endif %}
+    </ul>
+  </div>
+{% endif %}
