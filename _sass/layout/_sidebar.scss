@@ -7,9 +7,6 @@
    ========================================================================== */
 
 .sidebar {
-  -webkit-transform: translate3d(0, 0 , 0);
-          transform: translate3d(0, 0 , 0);
-
   @include clearfix();
   margin-bottom: 1em;
 
@@ -176,7 +173,8 @@
     display: block;
   }
 
-  button {
+  /* Only the "Follow" toggle; do not match buttons inside `.author__urls` (e.g. WeChat QR). */
+  > button {
     margin-bottom: 0;
 
     @include breakpoint($large) {
@@ -256,6 +254,27 @@
     color: inherit;
     font-size: $type-size-5;
     text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  /* WeChat QR opener: use a real button so jQuery smoothScroll (bound to all `a`) won't intercept. */
+  button.author__urls-btn {
+    appearance: none;
+    background: transparent;
+    border: 0;
+    padding: 2px 5px 2px 0;
+    margin: 0 0 5px 0;
+    width: 100%;
+    max-width: 100%;
+    font-family: inherit;
+    font-size: $type-size-5;
+    line-height: inherit;
+    color: inherit;
+    text-align: left;
+    cursor: pointer;
 
     &:hover {
       text-decoration: underline;
