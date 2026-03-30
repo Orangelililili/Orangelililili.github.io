@@ -8,6 +8,12 @@
     var modal = document.getElementById("weixin-qr-modal");
     if (!openers.length || !modal) return;
 
+    // Sidebar uses `transform`, which makes `position: fixed` descendants use the sidebar as
+    // their containing block; combined with overflow, the QR panel gets clipped. Body is safe.
+    if (modal.parentNode !== document.body) {
+      document.body.appendChild(modal);
+    }
+
     var closers = modal.querySelectorAll(".js-weixin-qr-close");
 
     function openModal(evt) {
